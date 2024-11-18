@@ -13,3 +13,11 @@ document.addEventListener("keydown", function (e) {
     }
 
 });
+
+var clear = document.querySelector("button");
+
+clear.addEventListener("click", function (e) {
+    box1.innerText = 1;
+    box2.innerText =2;
+    box3.innerText = 3;
+});
